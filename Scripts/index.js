@@ -133,9 +133,6 @@ btn_color.onclick = () => {
 
     text.style.color = color.value
     current_color.style.color = color.value
-    // let computedColor = window.getComputedStyle(current_color).color;
-    // console.log(computedColor)
-    // console.log(current_color.style.color)
     if(current_color.style.color === color.value)
         current_color.innerHTML = color.value
     color.value = ""
